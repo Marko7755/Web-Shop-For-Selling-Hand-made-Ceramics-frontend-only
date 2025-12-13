@@ -1,0 +1,118 @@
+.mobile-menu {
+    background-color: #00715A;
+}
+
+.mobile-menu a:hover, .mobile-menu button:hover {
+    background-color: #005a47;
+}
+
+button.ceramics {
+    background-color: #66BB6A;
+}
+
+
+.archiveCont{
+    width: 65%;
+    margin: 0 auto 45px;
+/*     padding: 25px; */
+   /*  border: 2px solid #DCDCDC;
+    background-color: #F8F8F8; */
+    border-radius: 15px;
+}
+
+.archiveCont h1 {
+    margin-bottom: 20px;
+}
+
+.archiveContent {
+    display: flex;
+    gap: 60px 30px;/*bit ce 2 gapa, znaci 2*30px = 60px, sve iznad 30 u ovom slucaju bi se wrapalo*/
+    flex-wrap: wrap;
+}
+
+.archieveArticle {
+    flex: 0 1 calc(33.33% - 20px);/*ovo znaci da ce biti 3 artikla po redu i 3 * 20px = 60px dodatno za gapove*/ /*0 da ne grow-a, 
+                                    ak je 1 onda je puna sirina a zelim samo 33.33%*/
+    border: 1px solid lightgrey;
+    padding: 10px;
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    /* flex: none; */
+    /* width: calc(33.33% - 20px); */
+}
+
+
+.archieveArticle:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.archieveArticle h3 {
+    margin-top: 10px;
+}
+
+.archieveArticle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.archieveArticle a img {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+}
+
+.archiveDate {
+    font-size: 1.3em;
+    margin-top: auto;
+}
+
+
+/*phone*/
+@media (max-width: 600px) {
+    .archiveCont{
+        width: 95%;
+    }
+
+    .archieveArticle {
+        flex: 100%;
+    }
+
+    .breadcrumbs  {
+        width: 95%;
+    }
+
+    .archieveArticle a img {
+        height: 550px;
+    }
+
+    
+    button.ceramics {
+       width: 100%;
+       height: 100%;
+    }
+
+}
+
+
+/*tablet*/
+@media (min-width: 601px) and (max-width: 991px){
+    .archiveCont{
+        width: 80%;
+    }
+
+    .archieveArticle {
+        flex: 1 1 calc(50% - 30px);
+    }
+
+    ul.breadcrumbs  {
+        width: 80%;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,159 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 65%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu {
+    background-color: #00715A;
+}
+
+.mobile-menu a:hover, .mobile-menu button:hover {
+    background-color: #005a47;
+}
+
+button.ceramics {
+    background-color: #66BB6A;
+}
+
+.main h1 {
+    margin: 0;
+}
+
+.formCont {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0 20px 0;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+/*     border: 1px solid grey; */
+    border-radius: 15px; 
+   /*  padding: 50px; */
+    flex: 30%;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 4px;
+}
+
+#btn {
+    width: 30%;
+    padding: 10px;
+    background-color: #006A62;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #004D47;
+}
+
+
+.poruka {
+    padding-bottom: 70px;
+}
+
+.contactInfoCont {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactContent {
+    display: flex;
+    gap: 15px;
+    align-items: center;  
+}
+
+.contactContent h4{
+    margin-bottom: 0;
+    color: #00715A;
+}
+
+.contantCont {
+/*     border: 1px solid grey; */
+    padding: 20px;
+    /* border-radius: 15px; */
+    margin-left: 75px;
+}
+
+
+/*phone*/
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 95%;
+    }
+    #btn {
+        width: 100%
+    }
+
+    input {
+        padding: 44px;
+    }
+
+    .formCont {
+       /* flex-direction: column; */
+       gap: 30px;
+    }
+
+    .formContent {
+        flex: 1;
+    }
+
+    .contactInfoCont {
+        flex: 1;
+        align-items: flex-start;
+    }
+
+    .contantCont {
+            margin-left: 0
+     }
+
+}
+
+
+
+
+/*tablet*/
+@media only screen and (min-width: 601px) and (max-width: 991px){
+    .main {
+        width: 80%;
+    }
+    
+    .formCont {
+        gap: 30px;
+     }
+    
+    #btn {
+        width: 100%;
+    }
+
+    input {
+        padding: 20px;
+    }
+
+    .contactInfoCont {
+        align-items: flex-start;
+    }
+
+    .contantCont {
+        margin-left: 0
+ }
+
+}

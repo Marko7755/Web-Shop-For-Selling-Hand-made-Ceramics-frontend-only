@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Homepage/css.css">
+    <link rel="stylesheet" href="../EspressoSalica/espressoSalicaCss.css">
+    <link rel="stylesheet" href="kontakt.css">
+
+</head>
+<body>
+    <nav>
+        <div class="allTogether">
+            <a href="../Homepage/ifkaPifka.html">
+                <img src="../../Stvari/WebpSlikeConvertane/logoTransWebp.webp" class="logo">
+            </a>
+            <div class="contentCont">
+            <div class="content">
+                <a href="#">O nama</a>
+                <a href="#">Događaji</a>
+                <a href="../ArhivaKeramike/arhivaKeramike.html">Arhiva keramike</a>
+                <a href="../Kontakt/kontakt.html">Kontakt</a>
+                <a href="#">Prijava</a>
+                <button class="ceramics" onclick="location.href='../Keramika/keramika.html'">Keramika</button>
+                <div class="shoppingCartCont" id="shoppingCart">
+                    <i class="bi bi-cart-fill" id="icon"></i>
+                </div>
+            </div>
+            </div>
+            <div class="hamburger-menu">
+                <i class="bi bi-list" id="hamburger"></i>
+            </div>
+        </div>
+        
+        
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#">O nama</a>
+            <a href="#">Događaji</a>
+            <a href="../ArhivaKeramike/arhivaKeramike.html">Arhiva keramike</a>
+            <a href="../Kontakt/kontakt.html">Kontakt</a>
+            <a href="#">Prijava</a>
+            <button class="ceramics" onclick="location.href='../Keramika/keramika.html'">Keramika</button>
+        </div>
+    </nav>
+
+
+    <ul class="breadcrumbs">
+        <li><a href="../Homepage/ifkaPifka.html">Početna</a></li>
+        <li>Kontakt</li>
+      </ul>
+
+
+
+        <main class="main">
+            <h1>Kontaktirajte nas</h1>
+            <section class="formCont">
+                <form class="formContent">
+                    <label for="ime">Ime</label>
+                    <input type="text" id="ime" required>
+                    <label for="prezime">Prezime</label>
+                    <input type="text" id="prezime" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required>
+                    <label for="kontaktBroj">Kontakt broj</label>
+                    <input type="text" id="kontaktBroj" required>
+                    <label for="poruka">Poruka</label>
+                    <input type="text" id="poruka" class="poruka" required>
+                    <button type="submit" id="btn">Pošalji</button>
+                </form>
+    
+                <aside class="contactInfoCont">
+                    <div class="contantCont">
+                        <div class="contactContent">
+                            <i class="bi bi-envelope" id="icon"></i>
+                            <div class="titleAndContent">
+                                <h4>Email</h4>
+                                <p>iffka.piffka@gmail.com</p>
+                            </div>
+                            
+                        </div>
+        
+                        <div class="contactContent">
+                            <i class="bi bi-telephone" id="icon"></i>
+                            <div class="titleAndContent">
+                                <h4>Telefon</h4>
+                                <p>+385 (0)91 234 5678</p>
+                            </div>
+                        </div>
+        
+                        <div class="contactContent">
+                            <i class="bi bi-envelope" id="icon"></i>
+                            <div class="titleAndContent">
+                                <h4>Adresa</h4>
+                                <p>ulica Ifke Pifke 2</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+    
+                </aside>
+            </section>
+            
+
+          </main>
+      
+
+
+      <footer>
+        <aside class="footerContentCont">
+            <section class="logoSocialMedia">
+                <a href="../../Kodovi/Homepage/ifkaPifka.html">
+                    <img src="../../Stvari/WebpSlikeConvertane/logoTransWebp.webp" class="logo">
+                </a>
+                <div class="logos">
+                    <a href="https://www.instagram.com/pifkaifka" target="_blank"><i class="bi bi-instagram" id="white"></i></a>
+                    <a href="https://www.facebook.com/pifka.ifka/?locale=hr_HR" target="_blank"><i class="bi bi-facebook" id="white"></i></a>
+                    <a href="#"><i class="bi bi-twitter" id="white"></i></a>
+                </div> 
+            </section>
+               
+        
+            <section class="footerLinks">
+                <div class="linksContent">
+                    <b id="white">Dronax</b>
+                    <a href="#">O nama</a>
+                    <a href="../../Kodovi/Kontakt/kontakt.html">Kontakt</a>
+                    <a href="#">Dostava</a>
+                </div>
+
+                <div class="linksContent">
+                    <b id="white">Info</b>
+                    <a href="#">FAQ</a>
+                    <a href="#">Uvjeti poslovanja</a>
+                    <a href="#">Politika privatnosti</a>
+                </div>
+
+                <div class="linksContent">
+                    <b id="white">Kupnja</b>
+                    <a href="#">Naćini plaćanja</a>
+                    <a href="#">Profil</a>
+                    <a href="#">Košarica</a>
+                </div>
+            </section>
+        </aside>    
+
+        <div class="autorCopyright">
+            <p>© 2025 Ifka Pifka d.o.o. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+
+<script src="../hamburgerMenu.js"></script>
+
+</body>
+</html>
