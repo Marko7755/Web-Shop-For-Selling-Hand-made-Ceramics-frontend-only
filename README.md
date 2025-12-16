@@ -3,6 +3,10 @@
 This project is a frontend-only web application for an online shop that showcases and sells handmade ceramic products under the brand Ifka Pifka.
 The main focus of the project is visual design, responsiveness, and user experience.
 
+Demo Video
+Watch the project presentation on YouTube:
+👉https://youtu.be/apiIgjVUVUo
+
 ⚠️ Note:
 This project does not include a backend, database, or real e-commerce functionality. All data is static and used for demonstration purposes.
 
